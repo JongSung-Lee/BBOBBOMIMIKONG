@@ -14,8 +14,12 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const fetchIdea = async () => {
-      const idea = await getCreativeIdea("어린이 주일학교 미술");
-      setAiIdea(idea);
+      try {
+        const idea = await getCreativeIdea("어린이 주일학교 미술");
+        setAiIdea(idea);
+      } catch (err) {
+        setAiIdea("창의적인 미술 활동을 준비해보세요!");
+      }
     };
     fetchIdea();
   }, []);
