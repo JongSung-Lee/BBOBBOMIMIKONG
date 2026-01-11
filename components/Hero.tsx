@@ -37,8 +37,8 @@ const Hero: React.FC<{ onExplore: () => void }> = ({ onExplore }) => {
           <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-50"></div>
           <div className="relative z-10 p-4 bg-white rounded-[2.5rem] shadow-2xl shadow-indigo-100 transform -rotate-1 hover:rotate-0 transition-transform duration-500">
              <img 
-              src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000&auto=format&fit=crop" 
-              alt="Art Materials and Supplies" 
+              src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1000&auto=format&fit=crop" 
+              alt="Colorful art materials and creative tools" 
               className="rounded-[2rem] object-cover w-full h-[450px]"
             />
             <div className="absolute bottom-10 -right-6 bg-white p-4 rounded-2xl shadow-xl flex items-center space-x-3 border border-slate-50">
