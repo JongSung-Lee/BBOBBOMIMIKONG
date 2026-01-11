@@ -2,8 +2,15 @@
 import { GoogleGenAI } from "@google/genai";
 
 export const getCreativeIdea = async (topic: string) => {
-  // 브라우저 환경에서 process.env 접근 시 에러 방지
-  const apiKey = typeof process !== 'undefined' ? process.env.API_KEY : undefined;
+  // 브라우저에서 process가 정의되지 않았을 때 ReferenceError 방지
+  let apiKey: string | undefined;
+  try {
+    if (typeof process !== 'undefined' && process.env) {
+      apiKey = process.env.API_KEY;
+    }
+  } catch (e) {
+    apiKey = undefined;
+  }
   
   if (!apiKey) {
     console.warn("API Key is missing. AI suggestions will be disabled.");
