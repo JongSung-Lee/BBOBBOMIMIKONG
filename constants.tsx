@@ -3,67 +3,60 @@ import { Product, Tutorial } from './types';
 
 export const PRODUCTS: Product[] = [
   {
-    id: 'p1',
-    title: '나만의 우드 캘린더 세트',
-    description: '1년 365일 매일이 특별해지는 따뜻한 나무 질감의 달력 만들기 키트입니다.',
-    price: 15000,
-    imageUrl: 'https://picsum.photos/seed/calendar/600/400',
-    category: '시즌 상품',
+    id: 'p5',
+    title: '주렁주렁 감사 나무 (시그니처)',
+    description: '폭신한 브라운 폼클레이와 알록달록한 카드로 만드는 감성 트리입니다. 재료의 질감을 느끼며 나만의 감사 나무를 빚어보세요.',
+    price: 13500,
+    imageUrl: 'https://images.unsplash.com/photo-1560421683-6856ea585c78?q=80&w=1000&auto=format&fit=crop',
+    category: '베스트셀러',
     youtubeId: 'dQw4w9WgXcQ',
-    materials: ['자작나무 합판', '수성 마커 세트', '사포', '넘버 스티커']
-  },
-  {
-    id: 'p2',
-    title: '반짝반짝 세라믹 컵 페인팅',
-    description: '아이들의 상상력을 컵에 담아보세요. 안전한 도자기 전용 물감이 포함되어 있습니다.',
-    price: 12000,
-    imageUrl: 'https://picsum.photos/seed/cup/600/400',
-    category: '생활용품',
-    youtubeId: 'dQw4w9WgXcQ',
-    materials: ['화이트 세라믹 머그', '도자기 전용 물감', '붓 2종', '팔레트']
+    materials: ['입체 나무 프레임', '브라운 폼클레이', '빨강/초록 클레이', '원형 카드(노랑/하늘)', '컬러 고리']
   },
   {
     id: 'p3',
-    title: '성경 인물 입체 인형 만들기',
-    description: '교회 주일학교 아이들을 위한 성경 이야기 입체 교구 패키지입니다.',
-    price: 9000,
-    imageUrl: 'https://picsum.photos/seed/doll/600/400',
+    title: '성경 인물 젓가락 인형',
+    description: '나무 젓가락의 자연스러운 질감과 컬러 클레이가 만났습니다. 단순한 도구가 아이들의 손에서 살아있는 성경 인물로 탄생합니다.',
+    price: 9500,
+    imageUrl: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop',
     category: '교육용',
     youtubeId: 'dQw4w9WgXcQ',
-    materials: ['컬러 찰흙', '나무 젓가락', '무빙 아이 스티커', '접착제']
+    materials: ['나무 젓가락', '컬러 찰흙 세트', '무빙 아이 스티커', '접착제', '장식용 부직포']
   },
   {
-    id: 'p4',
-    title: '자연물 리스 만들기',
-    description: '솔방울과 나뭇가지를 활용해 만드는 사계절 인테리어 리스 키트입니다.',
-    price: 18000,
-    imageUrl: 'https://picsum.photos/seed/wreath/600/400',
-    category: '인테리어',
+    id: 'p2',
+    title: '알록달록 세라믹 페인팅',
+    description: '순백의 세라믹 위에 펼쳐지는 아이들의 상상력. 전용 물감의 선명한 발색으로 실용적인 나만의 식기를 완성합니다.',
+    price: 12000,
+    imageUrl: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1000&auto=format&fit=crop',
+    category: '생활용품',
     youtubeId: 'dQw4w9WgXcQ',
-    materials: ['등나무 리스틀', '천연 솔방울', '목공풀', '리본끈', '아크릴 물감']
+    materials: ['화이트 세라믹 컵', '도자기 물감 6색', '디자인 붓 2종', '미니 팔레트']
+  },
+  {
+    id: 'p1',
+    title: '자작나무 우드 캘린더',
+    description: '나뭇결이 살아있는 자작나무 합판을 조립하며 시간의 소중함을 배웁니다. 내추럴한 감성이 돋보이는 인테리어 소품 겸 교구입니다.',
+    price: 15000,
+    imageUrl: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1000&auto=format&fit=crop',
+    category: '시즌 상품',
+    youtubeId: 'dQw4w9WgXcQ',
+    materials: ['자작나무 합판 세트', '수성 마커 세트', '부드러운 사포', '기념일 스티커']
   }
 ];
 
 export const TUTORIALS: Tutorial[] = [
   {
-    id: 't1',
-    title: '우드 달력 조립과 꾸미기 기초',
+    id: 't4',
+    title: '[가이드] 감사 나무 폼클레이 기법',
     youtubeId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://picsum.photos/seed/t1/400/225',
-    difficulty: '쉬움'
-  },
-  {
-    id: 't2',
-    title: '도자기 컵에 그림 그리는 꿀팁',
-    youtubeId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://picsum.photos/seed/t2/400/225',
+    thumbnail: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b?q=80&w=600&auto=format&fit=crop',
     difficulty: '보통'
   },
   {
-    id: 't3',
-    title: '색종이로 만드는 입체 성경 캐릭터',
+    id: 't1',
+    title: '성경 인물 인형 디테일 잡기',
     youtubeId: 'dQw4w9WgXcQ',
-    thumbnail: 'https://picsum.photos/seed/t3/400/225',
+    thumbnail: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=600&auto=format&fit=crop',
     difficulty: '쉬움'
   }
 ];
